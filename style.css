@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(100deg, rgb(0, 84, 133) 30%, rgb(9, 43, 54)90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .sub{
+    height: 40%;
+    width: 40%;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub span{
+    color: rgb(3, 250, 176);
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-shadow: 6px 6px 9px #000,6px 6px 6px #000;
+}
+
+#one{
+    visibility: hidden;
+    animation: visibleOne 5.5s infinite;
+}
+#two{
+    visibility: hidden;
+    animation: visibleTwo 5.5s infinite;
+}
+#three{
+    visibility: hidden;
+    animation: visibleThree 5.5s infinite;
+}
+#four{
+    visibility: hidden;
+    animation: visibleFour 5.5s infinite;
+}
+#five{
+    visibility: hidden;
+    animation: visibleFive 5.5s infinite;
+}
+#six{
+    visibility: hidden;
+    animation: visibleSix 5.5s infinite;
+}
+#seven{
+    visibility: hidden;
+    animation: visibleSeven 5.5s infinite;
+}
+
+@keyframes visibleOne {
+    0%{
+        visibility: hidden;
+    }
+    5%{
+        visibility: visible;
+        color: red;
+    }
+}
+
+@keyframes visibleTwo{
+    7%{
+        visibility: hidden;
+    }
+    15%{
+        visibility: visible;
+        color: #999fff;
+    }
+}
+
+@keyframes visibleThree{
+    9%{
+        visibility: hidden;
+    }
+    30%{
+        visibility: visible;
+        color: black;
+    }
+}
+@keyframes visibleFour{
+    11%{
+        visibility: hidden;
+    }
+    45%{
+        visibility: visible;
+        color: #fffeee;
+    }
+}
+
+@keyframes visibleFive{
+    13%{
+        visibility: hidden;
+    }
+    60%{
+        visibility: visible;
+        color: lime;
+    }
+}
+
+@keyframes visibleSix{
+    15%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+        color: #5effff;
+    }
+}
+
+@keyframes visibleSeven{
+    17%{
+        visibility: hidden;
+    }
+    90%{
+        visibility: visible;
+        color: red;
+    }
+}
